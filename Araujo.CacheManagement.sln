@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManagement.Infrastucture", "CacheManagement.Infrastucture\CacheManagement.Infrastucture.csproj", "{B1A16004-9FE0-4BEE-83C6-DFAFD5E6292B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheManagement.Console", "CacheManagement.Console\CacheManagement.Console.csproj", "{A4D53F09-5425-4243-A406-184A95EF9746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A16004-9FE0-4BEE-83C6-DFAFD5E6292B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A16004-9FE0-4BEE-83C6-DFAFD5E6292B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A16004-9FE0-4BEE-83C6-DFAFD5E6292B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A16004-9FE0-4BEE-83C6-DFAFD5E6292B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D53F09-5425-4243-A406-184A95EF9746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D53F09-5425-4243-A406-184A95EF9746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D53F09-5425-4243-A406-184A95EF9746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D53F09-5425-4243-A406-184A95EF9746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A0F9AF5-9CCC-4F66-8636-172FD21E7917}
+	EndGlobalSection
+EndGlobal
