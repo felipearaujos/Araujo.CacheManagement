@@ -8,10 +8,13 @@ using System.Text;
 namespace CacheManagement.Infrastucture.DTOs
 {
     public class CacheDTO
-    {           
-        public CultureInfo Culture { get; private set; }
-        public String Country { get; private set; }
-        public String DomainContext { get; private set; }
+    {
+        private CultureInfo Culture;
+
+        private String Country;
+
+        private String DomainContext;
+
         public Cacheable Cache { get; private set; }
 
         public string CacheKey { get { return GenerateCacheKey(); } }
